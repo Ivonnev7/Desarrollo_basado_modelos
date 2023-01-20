@@ -7,14 +7,17 @@ public class Duck {
     FlyBehavior fb;
     QuackBehavior qb;
 
-    // This is a constructor that takes two arguments
-    // and assigns them to the instance variables fb and qb
+    //Constructor que toma dos argumentos y los asigna a las variables instanciadas fb y qb
+    
+    
     public Duck(FlyBehavior fb, QuackBehavior qb) {
         this.fb = fb;
         this.qb = qb;
     }
 
-    // performFly is a method that calls the fly method of the instance variable fb
+    //perFormFly es un método que manda a llamar al método de la variable instanciada fb
+    
+    
     public void performFly() {
         fb.fly();
     }
@@ -27,7 +30,9 @@ public class Duck {
     public void display() {
         System.out.println("I'm a real Duck");
     }
-    // Function to display the duck
+    
+    //Muestreo de función de duck
+    
     public void showDuck() {
         display();
         performFly();
